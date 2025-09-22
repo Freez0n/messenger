@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background-color: #175d62;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -29,13 +29,14 @@ body {
 
 .registration-form h2 {
     margin-bottom: 30px;
-    color: #333;
+    color: #175d62;
     font-size: 28px;
     font-weight: 600;
 }
 
 .form-group {
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .form-group input {
@@ -44,18 +45,20 @@ body {
     border: 2px solid #e1e1e1;
     border-radius: 8px;
     font-size: 16px;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
     outline: none;
+    background-color: #fafafa;
 }
 
 .form-group input:focus {
-    border-color: #667eea;
+    border-color: #B1FFF6;
+    box-shadow: 0 0 0 3px rgba(177, 255, 246, 0.3);
 }
 
 button {
     width: 100%;
     padding: 14px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #175d62, #2a7d83);
     color: white;
     border: none;
     border-radius: 8px;
@@ -67,7 +70,7 @@ button {
 
 button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 6px 15px rgba(23, 93, 98, 0.4);
 }
 
 button:active {
